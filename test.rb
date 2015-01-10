@@ -1,3 +1,5 @@
+20150110
+
 arr = [["Tim","Jane"],["Amos","Lucy"]]
 # puts arr[1][1][0]
 
@@ -13,9 +15,9 @@ arr2 = [[1,2],[3,4]]
 # arr2[0][0] = "/"
 # print arr2
 
-rooms = Array.new(5, Array.new(5, 0))
+# rooms = Array.new(5, Array.new(5, 0))
 # print rooms
-rooms[0][0] = "/"
+# rooms[0][0] = "/"
 # print rooms
 # rooms[2][1] = "/"
 # rooms[3][3] = "\\"
@@ -23,19 +25,19 @@ rooms[0][0] = "/"
 # puts arr.class
 # puts rooms.class
 
-arr3 = Array.new(2, Array.new(2,"/"))
+arr3 = Array.new(2, Array.new(2,0))
 arr4 = [[0, 0], [0, 0]]
 
-p arr3[0][0].object_id
-p arr3[0][1].object_id
-p arr3[1][0].object_id
-p arr3[1][1].object_id
+# p arr3[0][0].object_id
+# p arr3[0][1].object_id
+# p arr3[1][0].object_id
+# p arr3[1][1].object_id
 
 # puts arr3 == arr4	 # >> true
 # puts arr3 === arr4  # >> true
 
-arr3[0][0] = "/"
-# print arr3  # >> [["/", 0], ["/", 0]]
+puts arr3[0][0].class
+print arr3  # >> [["/", 0], ["/", 0]]
 # puts ""
 arr4[0][0] = "/"
 # print arr4  # >> [["/", 0], [0, 0]]
