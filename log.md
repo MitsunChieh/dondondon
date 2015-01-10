@@ -1,8 +1,8 @@
-### DonDonDon
+## DonDonDon
 Dev Log in Traditional Chinese
 
-## 20150110
-開始編寫
+### 20150110
+開始編寫  
 1. 初步分成四塊：
   1. 初始化
   2. 位置判斷
